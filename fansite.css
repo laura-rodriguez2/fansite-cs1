@@ -1,8 +1,18 @@
+#lr_body{
+  background-color: rgb(20, 1, 1);
+
+}
+
+@font-face {
+  font-family: LifeCraft;
+  src: url(fonts/LifeCraft_Font.ttf);
+}
+
 a{
   text-decoration: none;
   color: rgb(255, 217, 0);
 }
-/* HEADER */
+                                                    /* HEADER */
 header{
   background-color: rgb(59, 25, 11);
   
@@ -14,7 +24,7 @@ justify-content: center;
 #lr_logo_size{
 width: 60%;
 /* position: absolute; */
-margin: -30px;
+margin: -50px;
 }
 #lr_header_police{
   font-family: Arial, Helvetica, sans-serif;
@@ -28,23 +38,55 @@ margin: -30px;
 #lr_menu_gauche{
   display: flex;
   justify-content: left;
-  padding-top: 65px;
+  padding-top: 30px;
 }
 #lr_menu_droite{
   display: flex;
   justify-content: right;
-  padding-top: 65px;
+  padding-top: 30px;
 }
 
   /* https://www.alsacreations.com/tuto/lire/574-Creer-des-menus-simples-en-CSS.html#menuhorizontal */
-/* FIN HEADER  */
+                                            /* FIN HEADER  */
 
-/* MAIN */
-main{
-  background-color: brown;
+                                              /* MAIN */
+
+#lr_main{
+  background-color: rgb(43, 0, 0);
 }
 
-/* FIN MAIN  */
+/* video  */
+video::-webkit-media-controls {
+  display: none;
+}
+#lr_video_background{
+  width: 100%;
+}
+
+/* HORDE VS ALLIANCE */
+#lr_image_camp{
+  width: 100%;
+}
+
+.lr_contenant {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+
+.lr_texte_centrer {
+  font-family : LifeCraft;
+  color:rgb(255, 217, 0);
+  font-size:  90px;
+  position: absolute;
+  bottom: 91%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* FIN HORDE VS ALLIANCE */
+
+                                        /* FIN MAIN  */
 
 /* FOOTER  */
 footer{
