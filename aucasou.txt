@@ -1,0 +1,200 @@
+header html
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link href="fansite.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>  
+            
+            <div id="lr_header_police">
+                
+                    <nav id="lr_menu_gauche">
+                        &emsp;&emsp;&emsp;<a href="fansite.html" title="Accueil">Accueil</a>&emsp;&emsp;&emsp;
+                        <a href="fansite2.html" title="à voir">Actualité</a>
+                    </nav>
+                    <div id="lr_logo_header">
+                <img id="lr_logo_size" src="images/logo_header1.png">
+                </div>
+                    <nav id="lr_menu_droite">
+                        <a href="fansite3.html" title="à voir">Personnages</a>
+                        &emsp;&emsp;&emsp;<a href="fansite4.html" title="à voir">Contact</a>&emsp;&emsp;&emsp;
+                    </nav>
+            </div>
+        </header>
+        <main>
+
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
+
+header css
+
+a{
+  text-decoration: none;
+  color: rgb(255, 217, 0);
+}
+/* HEADER */
+header{
+  background-color: rgb(59, 25, 11);
+  
+}
+#lr_logo_header{
+display: flex;
+justify-content: center;
+}
+#lr_logo_size{
+width: 60%;
+/* position: absolute; */
+margin: -30px;
+}
+#lr_header_police{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding-bottom: 15px;
+  padding-top: 20px; */
+  
+}
+#lr_menu_gauche{
+  display: flex;
+  justify-content: left;
+  padding-top: 65px;
+}
+#lr_menu_droite{
+  display: flex;
+  justify-content: right;
+  padding-top: 65px;
+}
+
+  /* https://www.alsacreations.com/tuto/lire/574-Creer-des-menus-simples-en-CSS.html#menuhorizontal */
+/* FIN HEADER  */
+
+/* MAIN */
+main{
+  background-color: brown;
+}
+
+/* FIN MAIN  */
+
+/* FOOTER  */
+footer{
+  background-color: chartreuse;
+}
+/* FIN FOOTER  */
+
+
+
+
+tout html pr le moment 
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link href="fansite.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>  
+            
+            <div id="lr_header_police">
+                
+                    <nav id="lr_menu_gauche">
+                        &emsp;&emsp;&emsp;<a href="fansite.html" title="Accueil">Accueil</a>&emsp;&emsp;&emsp;
+                        <a href="fansite2.html" title="à voir">Actualité</a>
+                    </nav>
+                    <div id="lr_logo_header">
+                <img id="lr_logo_size" src="images/logo_header1.png">
+                </div>
+                    <nav id="lr_menu_droite">
+                        <a href="fansite3.html" title="à voir">Personnages</a>
+                        &emsp;&emsp;&emsp;<a href="fansite4.html" title="à voir">Contact</a>&emsp;&emsp;&emsp;
+                    </nav>
+            </div>
+        </header>
+        <main>
+            <!-- <div>
+                <video controls src="images/mylivewallpapers.com-Shadowlands-WOW.mp4"></video>
+            </div> -->
+            <video id="lr_video_background" controls="false" preload="true" autoplay loop muted>
+                <source src="images/mylivewallpapers.com-Shadowlands-WOW.mp4" type="video/mp4" > 
+            </video>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
+
+
+css : 
+
+body{
+  background-color: rgb(20, 1, 1);
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 217, 0);
+}
+/* HEADER */
+header{
+  background-color: rgb(59, 25, 11);
+  
+}
+#lr_logo_header{
+display: flex;
+justify-content: center;
+}
+#lr_logo_size{
+width: 60%;
+/* position: absolute; */
+margin: -30px;
+}
+#lr_header_police{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  display: flex;
+  justify-content: space-evenly;
+  /* padding-bottom: 15px;
+  padding-top: 20px; */
+  
+}
+#lr_menu_gauche{
+  display: flex;
+  justify-content: left;
+  padding-top: 65px;
+}
+#lr_menu_droite{
+  display: flex;
+  justify-content: right;
+  padding-top: 65px;
+}
+
+  /* https://www.alsacreations.com/tuto/lire/574-Creer-des-menus-simples-en-CSS.html#menuhorizontal */
+/* FIN HEADER  */
+
+/* MAIN */
+main{
+  background-color: brown;
+}
+
+/* video  */
+video::-webkit-media-controls {
+  display: none;
+}
+#lr_video_background{
+  width: 100%;
+}
+/* FIN MAIN  */
+
+/* FOOTER  */
+footer{
+  background-color: chartreuse;
+}
+/* FIN FOOTER  */
