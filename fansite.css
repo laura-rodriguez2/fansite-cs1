@@ -24,7 +24,7 @@
 .al_histoire::-webkit-scrollbar-thumb {
     background-color: #d4aa70;
     border-radius: 100px;
-    border: 5px solid red;
+    border: 5px solid;
     background-clip: content-box;
 }
 .al_texte {
@@ -32,26 +32,56 @@
     font-weight: 700;
     margin-bottom: 1rem;
     color: #bb8436;
+    text-shadow: 0.1em 0.1em #333
 }
 #nom_race{
     color: #bb8436; 
     font-family: LifeCraft,Arial, Helvetica, sans-serif;
     position: absolute; top: 150px; left: 450px;
     font-size: 50px;
-
+    text-shadow: 0.1em 0.1em #333
+}
+#nom_race2{
+  color: #bb8436; 
+    font-family: LifeCraft,Arial, Helvetica, sans-serif;
+    position: absolute; top: 150px; left: 450px;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em #333
+}
+#nom_race3{
+  color: #bb8436; 
+    font-family: LifeCraft,Arial, Helvetica, sans-serif;
+    position: absolute; top: 150px; left: 450px;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em #333
 }
 
 * {
     box-sizing: border-box;
 
 }
-#al_body{
-    background-color: black;
-
+#al_bodyorc{
+    background-image: url(images/draenor.jpg);
+}
+#al_body_mv{
+  background-image: url(images/sylvanas_city.jpg);
+}
+#al_bodytauren{
+  background-image: url(images/taride.jpg);
 }
 #imgfansite2{
     position: absolute; top: 100px; left: 950px;
 }
+#imgfansite3{
+  position: absolute; top: 100px; left: 950px;
+}
+#imgfansite4{
+  position: absolute; top: 100px;left: 0px;
+}
+
+
+
+
 .logo1{
     /* display: flex;
     flex-direction: row;
@@ -60,7 +90,7 @@
 	height: 96px;
     padding-left: 42em;
     margin-bottom: 2em; */
-    position: absolute; top: 840px; left: 600px;
+    position: absolute; top: 830px; left: 600px;
 }
 
 
