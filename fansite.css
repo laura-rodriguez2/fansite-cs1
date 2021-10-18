@@ -161,7 +161,7 @@ video::-webkit-media-controls {
   color:rgb(223, 164, 1); 
   font-size:  90px;
   position: absolute;
-  bottom: -15em;
+  bottom: -16em;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -170,15 +170,17 @@ video::-webkit-media-controls {
 
 #lr_cinematiques{
   background-image: url(images/shadowland_fond_flou1.png);
-  padding-top: 7em;
+  padding-top: 15em;
   width: 100%;
-  height: 37em;
-  display: flex;
-  justify-content: center;
+  height: 54em;
+  /* display: flex;
+  justify-content: center; */
 }
 
 #shadowland{
-  height: -30em;
+  display: flex;
+  justify-content: center;
+  height: -75em;
   
 }
 
@@ -203,10 +205,12 @@ video::-webkit-media-controls {
   float:left;
   width:30%;
   color: rgb(223, 164, 1);
+  font-family: Arial, Helvetica, sans-serif;
 }
 #txt_droite {
   overflow:auto;
   color: rgb(223, 164, 1);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #lr_img_footer{
@@ -214,5 +218,10 @@ video::-webkit-media-controls {
   padding-top: 30px;
   margin-right: 10em;
 }
+
+.lr_footer_titre{
+  font-family: LifeCraft;
+}
+html { scroll-behavior: smooth; }
 /* FIN FOOTER  */
 
