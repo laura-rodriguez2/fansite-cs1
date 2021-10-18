@@ -7,8 +7,8 @@
     scrollbar-color: rgb(59, 25, 11) #e4e4e4;
     scrollbar-width: thin;
     overflow-y: auto;
-    max-width: 300px;
-    max-height: 200px;
+    max-width: 340px;
+    max-height: 150px;
     overflow-y: auto;
     scrollbar-gutter: var(--gutter, auto);
     margin: 1rem auto 0;
@@ -22,9 +22,9 @@
     border-radius: 100px;
 }
 .al_histoire::-webkit-scrollbar-thumb {
-    background-color: #d4aa70;
+    background-color: #bb8436;
     border-radius: 100px;
-    border: 5px solid;
+    border: 5px solid #4e3614;
     background-clip: content-box;
 }
 .al_texte {
@@ -55,6 +55,70 @@
     font-size: 50px;
     text-shadow: 0.1em 0.1em #333
 }
+#nom_race4{
+  color: #bb8436; 
+    font-family: LifeCraft,Arial, Helvetica, sans-serif;
+    position: absolute; top: 150px; left: 450px;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em #333
+}
+#nom_race5{
+  color: #bb8436; 
+    font-family: LifeCraft,Arial, Helvetica, sans-serif;
+    position: absolute; top: 150px; left: 450px;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em #333
+}
+#nom_race6{
+  color: #bb8436; 
+    font-family: LifeCraft,Arial, Helvetica, sans-serif;
+    position: absolute; top: 150px; left: 450px;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em #333
+}
+#nom_race7{
+  color: #bb8436; 
+    font-family: LifeCraft,Arial, Helvetica, sans-serif;
+    position: absolute; top: 150px; left: 450px;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em #333
+}
+#nom_race8{
+  color: #bb8436; 
+  font-family: LifeCraft,Arial, Helvetica, sans-serif;
+  position: absolute; top: 150px; left: 450px;
+  font-size: 50px;
+  text-shadow: 0.1em 0.1em #333
+}
+#nom_race9{
+  color: #bb8436; 
+  font-family: LifeCraft,Arial, Helvetica, sans-serif;
+  position: absolute; top: 150px; left: 450px;
+  font-size: 50px;
+  text-shadow: 0.1em 0.1em #333
+}
+#nom_race10{
+  color: #bb8436; 
+  font-family: LifeCraft,Arial, Helvetica, sans-serif;
+  position: absolute; top: 150px; left: 450px;
+  font-size: 50px;
+  text-shadow: 0.1em 0.1em #333
+}
+#nom_race11{
+  color: #bb8436; 
+  font-family: LifeCraft,Arial, Helvetica, sans-serif;
+  position: absolute; top: 150px; left: 450px;
+  font-size: 50px;
+  text-shadow: 0.1em 0.1em #333
+}
+#nom_race12{
+  color: #bb8436; 
+  font-family: LifeCraft,Arial, Helvetica, sans-serif;
+  position: absolute; top: 150px; left: 450px;
+  font-size: 50px;
+  text-shadow: 0.1em 0.1em #333
+}
+
 
 * {
     box-sizing: border-box;
@@ -65,20 +129,78 @@
 }
 #al_body_mv{
   background-image: url(images/sylvanas_city.jpg);
+  width: auto;
 }
 #al_bodytauren{
-  background-image: url(images/taride.jpg);
+  background-image: url(images/mulgor.png);
 }
-#imgfansite2{
-    position: absolute; top: 100px; left: 950px;
+#al_bodytroll{
+  background-image: url(images/durotar.jpg);
 }
-#imgfansite3{
-  position: absolute; top: 100px; left: 950px;
+#al_body_es{
+  background-image: url(images/bois_eternel.jpg);
 }
-#imgfansite4{
-  position: absolute; top: 100px;left: 0px;
+#al_body_gobelin{
+  background-image: url(images/gobelin_zone.jpg);
+}
+#al_body_humain{
+  background-image: url(images/hurlevent.jpg);
+}
+#al_body_nain{
+  background-image: url(images/forgefer.jpg);
+}
+#al_body_en{
+  background-image: url(images/teldrassil.jpg);
+}
+#al_body_gnome{
+  background-image: url(images/dunmorogh.jpg);
+}
+#al_body_draenei{
+  background-image: url(images/exodar.jpg);
+}
+#al_body_worgen{
+  background-image: url(images/Gilneas.jpg);
 }
 
+#imgfansite2{
+    position: absolute; top: 150px; left: 900px;
+}
+#imgfansite3{
+  position: absolute; top: 120px; left: 600px;
+}
+#imgfansite4{
+  position: absolute; top: 160px;left: 800px;
+}
+#imgfansite5{
+  position: absolute; top: 150px;left: 750px;
+}
+#imgfansite6{
+  position: absolute; top: 100px;left: 850px;
+}
+#imgfansite7{
+  position: absolute; top: 200px;left: 800px;
+}
+#imgfansite8{
+  position: absolute; top: 200px;left: 800px;
+}
+#imgfansite9{
+  position: absolute; top: 200px;left: 800px;
+}
+#imgfansite10{
+  position: absolute; top: 200px;left: 800px;
+}
+#imgfansite11{
+  position: absolute; top: 200px;left: 800px;
+}
+#imgfansite12{
+  position: absolute; top: 150px;left: 800px;
+}
+#imgfansite13{
+  position: absolute; top: 200px;left: 800px;
+}
+#al_main{
+  height: 1000px;
+}
 
 
 
@@ -90,12 +212,11 @@
 	height: 96px;
     padding-left: 42em;
     margin-bottom: 2em; */
-    position: absolute; top: 830px; left: 600px;
+    position: absolute; top: 830px; left: 610px;
 }
-
-
-
-
+.logo2{
+  position: absolute; top: 300px;left: 100px;
+}
 
 
 
